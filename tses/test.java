@@ -5,33 +5,24 @@
 
 */
 // Hello World 를 출력한다.
-public class test {
+/*public class test {
     public static void main(String[] args) {
-        System.out.println/*dkdkdk*/("Hello World");
+        System.out.println//("Hello World");
 
 
-
-
-
-
-
-/*
-         int int_number = 10;
+        int int_number = 10;
         System.out.println(int_number);
 
         int_number = 30;
-*/
 
-//        for(int i = 0 ; i < 18 ; ++i)
-//        {
-//            number += i * 10;
-//            System.out.println(number);
+
+        for (int i = 0; i < 18; ++i) {
+            number += i * 10;
+            System.out.println(number);
+            }
+
+
         }
 
-
-
     }
-
-
-
-
+    */
