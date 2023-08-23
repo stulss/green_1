@@ -1,13 +1,13 @@
-public class if123456 {
-    public static void main(String[] args) {
+//public class if123456 {
+//    public static void main(String[] args) {
 
 
         //300초를 분으로 나타내기
 
-        int sec = 421;
-        int min = sec/60;
-        int hor = min/60;
-        int day = hor/24;
+//        int sec = 421;
+//        int min = sec/60;
+//        int hor = min/60;
+//        int day = hor/24;
 //        sec -= min*60;
 //        min -= hor*60;
 //        hor -= day*24;
@@ -19,7 +19,7 @@ public class if123456 {
           //  min = min % 60;
             //sec = 0;
         //}
-        System.out.println(min+"분"+sec+"초");
+//        System.out.println(min+"분"+sec+"초");
 
         //if(min >= 1)
           //  System.out.println(min+"분입니다.");
@@ -78,5 +78,5 @@ public class if123456 {
 
 
 
-    }
-}
+//    }
+//}
