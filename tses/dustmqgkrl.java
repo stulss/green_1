@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 class dustmqgkrl {
+    static int num = 10;
+
 
 
 
