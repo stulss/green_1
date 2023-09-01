@@ -40,6 +40,63 @@ gc = 가비지 컬렉터
 
 
 public class Main {
+
+    public static void main(String[] args) {
+
+        /*
+        Singleton.getInstance().setNumber(10);
+        int number = Singleton.getInstance().getNumber();
+
+        System.out.println(number);
+        */
+
+
+
+
+
+
+
+/*
+
+
+
+
+        Manager manager = null; //new Manager();
+
+        Manager.number = 10;
+        manager.num=10;
+
+        // 생성자 호출 및 초기화
+        User user = new User("홍길동","111222333",24);
+
+        System.out.println(Manager.number);
+
+        User.gerName();
+        System.out.println(Manager.number);
+
+        //위에서 초기화된 내용을 각각 받아옴.
+        String name = user.getName();
+        String password = user.getPassword();
+        int age = user.getAge();
+
+        // 비교 연산 수행 및 값 변경
+        name = "임꺽정";
+
+        // 새로운 값 셋팅
+        user.setName(name);
+
+        //System.out.println(user.getName());
+        user.render();
+*/
+
+    }
+
+
+
+
+
+
+    /*
     public static void main(String[] args) {
         //Animal 객체 생성 : Animal 클래스에서 함수를 호출합니다.
         Animal myAnimal = new Animal();
@@ -53,4 +110,5 @@ public class Main {
         Cat myCat = new Cat();
         myCat.makeSound();  //출력 : "야옹!"
     }
+     */
 }
