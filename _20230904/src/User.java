@@ -1,15 +1,10 @@
-public class User {
+public class User {         // 클래스 만들기 = 객체 생성
     private String name;
     private int Kor;
     private int Eng;
     private int Math;
 
-    public User() {
-
-    }
-
-
-
+    public User(){}
 
     public User(String name, int kor, int eng, int math) {
         this.name = name;
@@ -19,6 +14,19 @@ public class User {
     }
 
 //리스트 안에서 User의 값을 초기화하고 출력하는 프로그램 작성하기
+
+    User printOut(){
+        System.out.println("name = "+ getName() );
+        System.out.println("Kor = "+getKor());
+        System.out.println("Eng = "+getEng());
+        System.out.println("Math = "+getMath());
+
+        return printOut();
+    }
+
+
+
+
 
 
     public String getName() {
