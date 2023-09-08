@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class MakeCharacter {
+
+
     public Character selectCharacter(){
         Scanner scanner = new Scanner(System.in);
         Character returnValue = null;
@@ -19,3 +21,4 @@ public class MakeCharacter {
         return returnValue;
     }
 }
+

@@ -1,4 +1,4 @@
-/*
+
 public class StartGame {
     public static void main(String[] args) {
         PlayGame pg = new PlayGame();
@@ -7,4 +7,3 @@ public class StartGame {
         pg.play(selectCharacter);
     }
 }
-*/
