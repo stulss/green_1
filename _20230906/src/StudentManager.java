@@ -31,7 +31,7 @@ public class StudentManager {
 //    private int userID;
 
     //----------------------------------------
-    //함수
+    //함수, 학생추가
     public void C(Student student){
 
 //        Student student = new Student();
@@ -89,7 +89,7 @@ public class StudentManager {
         System.out.println("해당 이름의 학생이 없습니다.");
     }
     public List<Student> getStudents() {
-        return new ArrayList<>(studentList);
+        return new ArrayList<>(studentLIst);
     }
 
 }
