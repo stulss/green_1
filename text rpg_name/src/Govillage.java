@@ -1,31 +1,32 @@
 //작성자 홍주형
 //작성일자 2023.09.11
-//
+//최종수장 2023.09.12
+
 
 public class Govillage {
 
 
-    public void ActMenu() {
-        ScannerManager.Initialize();
-        Charactor charactor = new Player(ScannerManager.ScanName());
-
-
-        GoPub goPub = new GoPub();
-        GoSmith goSmith = new GoSmith();
-        GoDungeon goDungeon = new GoDungeon();
+    public void ActMenu(Charactor charactor,GoPub goPub,GoSmith goSmith,GoDungeon goDungeon) {
 
         while (true) {
-            System.out.println("1.펍으로 이동 2.대장간으로 이동 3.던전으로 이동");
+            ((Player)charactor).Status();
+            System.out.println("");
+            System.out.println("마을 사람들이 부지런히 움직이고 있다.");
+            System.out.println("");
+
+            System.out.println("1.여관으로 이동");
+            System.out.println("2.대장간으로 이동");
+            System.out.println("3.던전으로 이동");
             System.out.println("이동할 장소를 선택해 주세요.");
 
             switch (ScannerManager.Scan()) {
-                case "1":
+                case 1:
                     goPub.PubMenu(charactor);
                     break;
-                case "2":
+                case 2:
                     goSmith.SmithMenu(charactor);
                     break;
-                case "3":
+                case 3:
                     goDungeon.Update(charactor);
                     break;
                 default:
