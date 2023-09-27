@@ -10,7 +10,7 @@ public class User {
     // ** User가 갖고 있는 데이터
 
     // ** User name
-    private long id;
+    private Long id;
     private String name;
     private String email;
 
